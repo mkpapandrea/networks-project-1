@@ -1,0 +1,239 @@
+Script started on 2019-10-23 20:58:52-0400
+nickz@cisc450:~/NetworksProject1$ ls -l
+total 38
+-rw-rw-r-- 1 nickz nickz    0 Oct 23 20:58 clientScript.txt
+-rwx------ 1 nickz nickz 1792 Oct 23 09:57 data1.txt
+-rwx------ 1 nickz nickz 5376 Oct 23 09:57 data2.txt
+-rwx------ 1 nickz nickz  343 Oct 17 16:27 Makefile
+-rw-rw-r-- 1 nickz nickz    0 Oct 23 20:58 serverScript.txt
+-rwx------ 1 nickz nickz 5931 Oct 23 20:42 tcpclient.c
+-rwx------ 1 nickz nickz 5566 Oct 23 20:40 tcpserver.c
+-rwx------ 1 nickz nickz 4340 Oct  8 16:04 test1.txt
+-rwx------ 1 nickz nickz 9139 Oct  8 16:05 test2.txt
+-rwx------ 1 nickz nickz 4426 Oct 17 16:27 udpclient.c
+-rwx------ 1 nickz nickz 3197 Oct 17 16:27 udpserver.c
+nickz@cisc450:~/NetworksProject1$ ls -l
+total 40
+-rw-rw-r-- 1 nickz nickz     0 Oct 23 20:59 clientScript.txt
+-rwx------ 1 nickz nickz  1792 Oct 23 20:59 data1.txt
+-rwx------ 1 nickz nickz  5376 Oct 23 20:59 data2.txt
+-rwx------ 1 nickz nickz   343 Oct 23 20:59 Makefile
+-rw-rw-r-- 1 nickz nickz     0 Oct 23 20:59 serverScript.txt
+-rwxrwxr-x 1 nickz nickz 13376 Oct 23 21:00 tcpclient
+-rwx------ 1 nickz nickz  5931 Oct 23 20:59 tcpclient.c
+-rwxrwxr-x 1 nickz nickz 13136 Oct 23 21:00 tcpserver
+-rwx------ 1 nickz nickz  5566 Oct 23 20:59 tcpserver.c
+-rwx------ 1 nickz nickz  4340 Oct 23 20:59 test1.txt
+-rwx------ 1 nickz nickz  9139 Oct 23 20:59 test2.txt
+-rwxrwxr-x 1 nickz nickz 13120 Oct 23 21:00 udpclient
+-rwx------ 1 nickz nickz  4426 Oct 23 20:59 udpclient.c
+-rwxrwxr-x 1 nickz nickz 12880 Oct 23 21:00 udpserver
+-rwx------ 1 nickz nickz  3197 Oct 23 20:59 udpserver.c
+nickz@cisc450:~/NetworksProject1$ ./tcpclient
+Please input the name of the file to recive:
+test2.txt
+Packet 0 received with 48 data bytes
+Packet 1 received with 1 data bytes
+Packet 2 received with 40 data bytes
+Packet 3 received with 1 data bytes
+Packet 4 received with 50 data bytes
+Packet 5 received with 1 data bytes
+Packet 6 received with 1 data bytes
+Packet 7 received with 1 data bytes
+Packet 8 received with 38 data bytes
+Packet 9 received with 1 data bytes
+Packet 10 received with 43 data bytes
+Packet 11 received with 1 data bytes
+Packet 12 received with 1 data bytes
+Packet 13 received with 78 data bytes
+Packet 14 received with 52 data bytes
+Packet 15 received with 59 data bytes
+Packet 16 received with 78 data bytes
+Packet 17 received with 34 data bytes
+Packet 18 received with 1 data bytes
+Packet 19 received with 76 data bytes
+Packet 20 received with 51 data bytes
+Packet 21 received with 78 data bytes
+Packet 22 received with 48 data bytes
+Packet 23 received with 40 data bytes
+Packet 24 received with 1 data bytes
+Packet 25 received with 62 data bytes
+Packet 26 received with 71 data bytes
+Packet 27 received with 79 data bytes
+Packet 28 received with 76 data bytes
+Packet 29 received with 27 data bytes
+Packet 30 received with 71 data bytes
+Packet 31 received with 73 data bytes
+Packet 32 received with 78 data bytes
+Packet 33 received with 76 data bytes
+Packet 34 received with 78 data bytes
+Packet 35 received with 46 data bytes
+Packet 36 received with 1 data bytes
+Packet 37 received with 57 data bytes
+Packet 38 received with 55 data bytes
+Packet 39 received with 1 data bytes
+Packet 40 received with 79 data bytes
+Packet 41 received with 79 data bytes
+Packet 42 received with 33 data bytes
+Packet 43 received with 31 data bytes
+Packet 44 received with 1 data bytes
+Packet 45 received with 80 data bytes
+Packet 46 received with 79 data bytes
+Packet 47 received with 78 data bytes
+Packet 48 received with 79 data bytes
+Packet 49 received with 78 data bytes
+Packet 50 received with 79 data bytes
+Packet 51 received with 75 data bytes
+Packet 52 received with 76 data bytes
+Packet 53 received with 72 data bytes
+Packet 54 received with 14 data bytes
+Packet 55 received with 1 data bytes
+Packet 56 received with 75 data bytes
+Packet 57 received with 76 data bytes
+Packet 58 received with 72 data bytes
+Packet 59 received with 37 data bytes
+Packet 60 received with 1 data bytes
+Packet 61 received with 77 data bytes
+Packet 62 received with 75 data bytes
+Packet 63 received with 77 data bytes
+Packet 64 received with 77 data bytes
+Packet 65 received with 67 data bytes
+Packet 66 received with 76 data bytes
+Packet 67 received with 55 data bytes
+Packet 68 received with 64 data bytes
+Packet 69 received with 64 data bytes
+Packet 70 received with 63 data bytes
+Packet 71 received with 6 data bytes
+Packet 72 received with 1 data bytes
+Packet 73 received with 73 data bytes
+Packet 74 received with 72 data bytes
+Packet 75 received with 80 data bytes
+Packet 76 received with 74 data bytes
+Packet 77 received with 72 data bytes
+Packet 78 received with 63 data bytes
+Packet 79 received with 59 data bytes
+Packet 80 received with 80 data bytes
+Packet 81 received with 66 data bytes
+Packet 82 received with 45 data bytes
+Packet 83 received with 1 data bytes
+Packet 84 received with 65 data bytes
+Packet 85 received with 60 data bytes
+Packet 86 received with 60 data bytes
+Packet 87 received with 65 data bytes
+Packet 88 received with 65 data bytes
+Packet 89 received with 62 data bytes
+Packet 90 received with 61 data bytes
+Packet 91 received with 66 data bytes
+Packet 92 received with 60 data bytes
+Packet 93 received with 58 data bytes
+Packet 94 received with 63 data bytes
+Packet 95 received with 62 data bytes
+Packet 96 received with 60 data bytes
+Packet 97 received with 62 data bytes
+Packet 98 received with 63 data bytes
+Packet 99 received with 46 data bytes
+Packet 100 received with 1 data bytes
+Packet 101 received with 80 data bytes
+Packet 102 received with 80 data bytes
+Packet 103 received with 80 data bytes
+Packet 104 received with 80 data bytes
+Packet 105 received with 80 data bytes
+Packet 106 received with 80 data bytes
+Packet 107 received with 80 data bytes
+Packet 108 received with 38 data bytes
+Packet 109 received with 1 data bytes
+Packet 110 received with 65 data bytes
+Packet 111 received with 61 data bytes
+Packet 112 received with 60 data bytes
+Packet 113 received with 45 data bytes
+Packet 114 received with 1 data bytes
+Packet 115 received with 66 data bytes
+Packet 116 received with 63 data bytes
+Packet 117 received with 64 data bytes
+Packet 118 received with 66 data bytes
+Packet 119 received with 64 data bytes
+Packet 120 received with 62 data bytes
+Packet 121 received with 63 data bytes
+Packet 122 received with 65 data bytes
+Packet 123 received with 49 data bytes
+Packet 124 received with 1 data bytes
+Packet 125 received with 59 data bytes
+Packet 126 received with 62 data bytes
+Packet 127 received with 65 data bytes
+Packet 128 received with 62 data bytes
+Packet 129 received with 65 data bytes
+Packet 130 received with 64 data bytes
+Packet 131 received with 61 data bytes
+Packet 132 received with 54 data bytes
+Packet 133 received with 62 data bytes
+Packet 134 received with 64 data bytes
+Packet 135 received with 65 data bytes
+Packet 136 received with 38 data bytes
+Packet 137 received with 1 data bytes
+Packet 138 received with 66 data bytes
+Packet 139 received with 66 data bytes
+Packet 140 received with 63 data bytes
+Packet 141 received with 63 data bytes
+Packet 142 received with 63 data bytes
+Packet 143 received with 57 data bytes
+Packet 144 received with 44 data bytes
+Packet 145 received with 1 data bytes
+Packet 146 received with 60 data bytes
+Packet 147 received with 57 data bytes
+Packet 148 received with 59 data bytes
+Packet 149 received with 66 data bytes
+Packet 150 received with 64 data bytes
+Packet 151 received with 61 data bytes
+Packet 152 received with 62 data bytes
+Packet 153 received with 64 data bytes
+Packet 154 received with 64 data bytes
+Packet 155 received with 61 data bytes
+Packet 156 received with 61 data bytes
+Packet 157 received with 7 data bytes
+Packet 158 received with 1 data bytes
+Packet 159 received with 64 data bytes
+Packet 160 received with 64 data bytes
+Packet 161 received with 60 data bytes
+Packet 162 received with 64 data bytes
+Packet 163 received with 8 data bytes
+Packet 164 received with 1 data bytes
+Packet 165 received with 55 data bytes
+Packet 166 received with 1 data bytes
+Packet 167 received with 51 data bytes
+Packet 168 received with 1 data bytes
+Packet 169 received with 55 data bytes
+Packet 170 received with 1 data bytes
+Packet 171 received with 60 data bytes
+Packet 172 received with 18 data bytes
+Packet 173 received with 1 data bytes
+End of Transmission Packet with sequence number 174 received with 4 data bytes
+Number of data packets received: 173
+Total number of data bytes received: 9139
+Please input the name of the file to recive:
+^C
+nickz@cisc450:~/NetworksProject1$ ls -l
+total 77
+-rw-rw-r-- 1 nickz nickz  8192 Oct 23 21:01 clientScript.txt
+-rwx------ 1 nickz nickz  1792 Oct 23 20:59 data1.txt
+-rwx------ 1 nickz nickz  5376 Oct 23 20:59 data2.txt
+-rwx------ 1 nickz nickz   343 Oct 23 20:59 Makefile
+-rw-rw-r-- 1 nickz nickz  9139 Oct 23 21:00 out.txt
+-rw-rw-r-- 1 nickz nickz  8192 Oct 23 21:01 serverScript.txt
+-rwxrwxr-x 1 nickz nickz 13376 Oct 23 21:00 tcpclient
+-rwx------ 1 nickz nickz  5931 Oct 23 20:59 tcpclient.c
+-rwxrwxr-x 1 nickz nickz 13136 Oct 23 21:00 tcpserver
+-rwx------ 1 nickz nickz  5566 Oct 23 20:59 tcpserver.c
+-rwx------ 1 nickz nickz  4340 Oct 23 20:59 test1.txt
+-rwx------ 1 nickz nickz  9139 Oct 23 20:59 test2.txt
+-rwxrwxr-x 1 nickz nickz 13120 Oct 23 21:00 udpclient
+-rwx------ 1 nickz nickz  4426 Oct 23 20:59 udpclient.c
+-rwxrwxr-x 1 nickz nickz 12880 Oct 23 21:00 udpserver
+-rwx------ 1 nickz nickz  3197 Oct 23 20:59 udpserver.c
+nickz@cisc450:~/NetworksProject1$ diff test2.txt
+diff: missing operand after 'test2.txt'
+diff: Try 'diff --help' for more information.
+nickz@cisc450:~/NetworksProject1$ diff test2.txt out.txt
+nickz@cisc450:~/NetworksProject1$ exit
+exit
+
+Script done on 2019-10-23 21:03:16-0400
